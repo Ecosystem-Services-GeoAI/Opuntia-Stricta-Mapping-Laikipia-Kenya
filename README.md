@@ -6,15 +6,14 @@
 This repository hosts the data and code for mapping **Opuntia stricta** at 10 m spatial resolution across Laikipia County, Kenya, and interpreting drivers of its distribution using SHAP‑based Random Forest.
 
 <p align="center">
-  <img src="results/overview_map.png" width="70%" alt="Study area and prediction map"/>
+  <img src="results/Prediction_Map/Prediction.jpg" width="70%" alt="Study area and prediction map"/>
 </p>
 
 ### Key features
-1. **Time‑series Sentinel‑2** (2019‑2023) + **WorldClim** climate + terrain & anthropogenic layers  
+1. **Time‑series Sentinel‑2** (2019‑2023) + **Time‑series Climate**  + terrain & anthropogenic layers  
 2. **Recursive feature elimination** + **grid‑based spatial CV** to mitigate spatial autocorrelation  
 3. **Explainable ML** with SHAP; dry‑season precipitation & population density emerged most influential  
 4. **Hotspot & kernel density** analyses for management‐ready invasion risk products  
-5. End‑to‑end **open & modular code**: Notebook demos + script batch mode + pytest
 
 ## Quick start
 
@@ -27,5 +26,5 @@ cd opuntia-stricta-mapping-laikipia
 conda env create -f environment.yml
 conda activate opuntia
 
-# run a pipeline demo
+# run the code
 jupyter notebook notebooks/main.ipynb
