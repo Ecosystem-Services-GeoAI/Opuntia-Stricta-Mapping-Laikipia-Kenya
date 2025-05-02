@@ -6,10 +6,10 @@ This folder contains the **tabular reference data** used throughout the study *U
 
 ## 1. Files
 
-| File                           | Purpose                                                               | Size\*      | CRS                |
-| ------------------------------ | --------------------------------------------------------------------- | ----------- | ------------------ |
-| `opuntia_train_val.csv`        | Combined **training + validation** samples (stratified spatial split) | **\~XX MB** | EPSG:4326 (WGS 84) |
-| `opuntia_test_independent.csv` | **Independent test** set withheld from model tuning                   | **\~XX MB** | EPSG:4326          |
+| File                           | Purpose                                                                | CRS                |
+| ------------------------------ | ---------------------------------------------------------------------  | ------------------ |
+| `opuntia_train_val.csv`        | Combined **training + validation** samples (stratified spatial split)  | EPSG:4326 (WGS 84) |
+| `opuntia_test_independent.csv` | **Independent test** set withheld from model tuning                    | EPSG:4326          |
 
 Both tables share the same schema (see below).
 
@@ -71,7 +71,7 @@ Field or photo‑interpreted estimate of *O. stricta* fractional cover in the 10
 
 ## 5. Feature Extraction Workflow
 
-All  **841 predictor layers** (see column groups above) were mosaicked into a single multi‑band GeoTIFF. Point values were then extracted via **Rasterio `sample()`**:
+All  **predictor layers** (see column groups above) were mosaicked into a single multi‑band GeoTIFF. Point values were then extracted via **Rasterio `sample()`**:
 
 
 The resulting NumPy array was concatenated to the attribute table and exported as these CSVs.

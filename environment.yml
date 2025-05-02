@@ -1,0 +1,27 @@
+name: opuntia
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11        
+  
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - shap
+  - joblib             
+
+  - dtaidistance
+  - tslearn
+
+  - geopandas
+  - shapely
+  - rasterio
+  - fiona             
+  - pyproj            
+  - rtree             
+
+  - tqdm
+  - jupyterlab
+  - ipykernel
