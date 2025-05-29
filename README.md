@@ -1,6 +1,6 @@
 # Opuntia stricta Mapping in Laikipia, Kenya 🌵
 
-> **Paper title**: *Uncovering the Spread of* ***Opuntia stricta* (Haw.) Haw.* *in Kenya’s Drylands with Sentinel‑2 Time Series and Explainable Machine Learning*
+> **Paper title**: *Mapping Invasive* ***Opuntia stricta*** *in Kenya’s Drylands Using Explainable Machine Learning with Time-Series Remote Sensing and Geospatial Context*
 
 ## Overview
 This repository hosts the data and code for mapping **Opuntia stricta** at 10 m spatial resolution across Laikipia County, Kenya, and interpreting drivers of its distribution using SHAP‑based Random Forest.
@@ -10,9 +10,9 @@ This repository hosts the data and code for mapping **Opuntia stricta** at 10 
 </p>
 
 ### Key features
-1. **Time‑series Sentinel‑2** + **Time‑series Climate**  + terrain & anthropogenic layers  
-2. **Recursive feature elimination** + **grid‑based spatial CV** to mitigate spatial autocorrelation  
-3. **Explainable ML** with SHAP; dry‑season precipitation & population density emerged most influential  
+1. **Intra-annual Sentinel‑2 Time‑series** + **Climate Seasonality**  + topography & landscape structure & anthropogenic layers  
+2. **Recursive feature elimination** + **grid‑based spatial validation** to mitigate spatial autocorrelation  
+3. **Explainable ML with SHAP**; dry‑season precipitation & population density emerged most influential  
 4. **Hotspot & kernel density** analyses for management‐ready invasion risk products  
 
 ## Quick start
