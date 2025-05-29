@@ -10,7 +10,7 @@ This repository hosts the data and code for mapping **Opuntia stricta** at 10 
 </p>
 
 ### Key features
-1. **Intra-annual Sentinel‑2 Time‑series** + **Climate Seasonality**  + topography & landscape structure & anthropogenic layers  
+1. **Intra-annual Sentinel‑2 Time‑series** + **Climate Seasonality**  + **Geographic Context**: topography & landscape structure & anthropogenic layers  
 2. **Recursive feature elimination** + **grid‑based spatial validation** to mitigate spatial autocorrelation  
 3. **Explainable ML with SHAP**; dry‑season precipitation & population density emerged most influential  
 4. **Hotspot & kernel density** analyses for management‐ready invasion risk products  
