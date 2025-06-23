@@ -1,6 +1,9 @@
 # Opuntia stricta Mapping in Laikipia, Kenya 🌵
 
-> **Paper title**: *Mapping Invasive* ***Opuntia stricta*** *in Kenya’s Drylands Using Explainable Machine Learning with Time-Series Remote Sensing and Geospatial Context*
+> **How to cite**:
+
+Song, Jiayi and Zhao, Chang and Oduor, Kenneth Tembe and Liao, Hao-Yu and Tang, Zhou and Lima Bretas, Igor and Angondalli Nagaraja, Srikantnag and Dubeux, Jose and Owino, Willis O. and Shao, Wei, Mapping Invasive Opuntia Stricta in Kenya's Drylands Using Explainable Machine Learning with Time-Series Remote Sensing and Geographic Context. Available at SSRN: https://ssrn.com/abstract=5280495 or http://dx.doi.org/10.2139/ssrn.5280495
+
 
 ## Overview
 This repository hosts the data and code for mapping **Opuntia stricta** at 10 m spatial resolution across Laikipia County, Kenya, and interpreting drivers of its distribution using SHAP‑based Random Forest.
